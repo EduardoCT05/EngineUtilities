@@ -19,7 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="src\EngineMath.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Core\Constants.h" />
+    <ClInclude Include="include\Math\EngineMath.h" />
+    <ClInclude Include="include\Matrix\Matix2x2.h" />
+    <ClInclude Include="include\Matrix\Matrix3x3.h" />
+    <ClInclude Include="include\Matrix\Matrix4x4.h" />
+    <ClInclude Include="include\Rotations\Quaternion.h" />
+    <ClInclude Include="include\Vector\VEctor2.h" />
+    <ClInclude Include="include\Vector\Vector3.h" />
+    <ClInclude Include="include\Vector\Vector4.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
